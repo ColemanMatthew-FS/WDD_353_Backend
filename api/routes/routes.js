@@ -18,7 +18,6 @@ router.post("/registration", (req,res,next)=>{
     //calls the method to save the request data
     //then creates a json containing the data that got saved
     postRegistration(req).then(result =>{
-        console.log(result);
         res.status(200).json({
             message: "Registration Saved",
             status: 200,
