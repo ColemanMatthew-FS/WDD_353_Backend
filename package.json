@@ -1,0 +1,26 @@
+{
+  "name": "wdd_353_backend",
+  "version": "1.0.0",
+  "description": "Restful API for registration backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "Restful",
+    "API",
+    "NodeJS"
+  ],
+  "author": "Matthew Coleman",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
