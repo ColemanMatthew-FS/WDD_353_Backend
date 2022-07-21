@@ -46,4 +46,7 @@ const registrationSchema = mongoose.Schema({
     },
 });
 
+//NOTE: by default, mongoose pluralizes the model name...
+//for the collection name. In this case it's "registrations"
+//This behavior can be changed
 module.exports = mongoose.model("Registration", registrationSchema);
